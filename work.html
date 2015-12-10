@@ -14,12 +14,10 @@
 	 <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 </head>
-
 <body>
     
 	 <h1>Marina Gulova</h1>
 
-   !--Navigation--!
     <div class="navigation">
         <nav>
 	     <ul>
@@ -36,7 +34,26 @@
     <img src="img/MeDrawing.png" alt="" class="homePic">
 </div>
 
+!--Instagram Feed jQuery--!
 
+<div class="instagram"></div>
+
+<script src="jquery.js"></script>
+<script src="dist/instagram.min.js"></script>
+<script>
+jQuery(function($) {
+  $('.instagram').on('willLoadInstagram', function(event, options) {
+    console.log(options);
+  });
+  $('.instagram').on('didLoadInstagram', function(event, response) {
+    console.log(response);
+  });
+  $('.instagram').instagram({
+    hash: 'love',
+    clientId: 'YOUR-CLIENT-ID-HERE'
+  });
+});
+</script>
 
 
 
