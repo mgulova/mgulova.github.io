@@ -1,28 +1,26 @@
 /*GLobal*/
 
 
+/*Home*/
+
+.homePic img {
+    height: 500px;
+    width: auto;
+    margin: 0 auto;
+}
+
+body {
+    background: red;
+}
+
+
+
 /*Nav*/
 
-nav a:link,
-a:visited {
-  
-  color: #7D7E91;
-  text-decoration: none;
-  
+.navigation {
+    background: red;
 }
 
-a:focus {
-  background: #purple;
-}
-
-a:hover {
-  background: #6F791A;
-  color: #blue;
-}
-
-a:active {
-  background: #red;
-}
 
 
 /*Bio*/
