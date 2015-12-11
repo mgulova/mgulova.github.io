@@ -6,12 +6,14 @@
 h1 {
     color: black;
     font-family: 'futura', sans-serif;
-    font-size: 3em;
+    font-size: 2em;
+    line-height: 2.5;
     font-weight: 100;
+    margin: -5px 40px;
 }
 
 body {
-    background: pink;
+    background: white;
 }
 
 .homePic {
@@ -19,6 +21,7 @@ body {
     height: 500px;
     width: auto;
     margin: 0 auto;
+    position: 200px;
    
     
 }
@@ -27,11 +30,11 @@ body {
 /*Nav*/
 
 .navigation {
-    background: red;
+    background: black;
     width: 200px;
     height: 500px;
     
-    color: black;
+    color: white;
     text-align: left;
     font-family: 'futura', sans-serif;
     font-size: 2em;
@@ -40,14 +43,20 @@ body {
     
     
     
+    
 }
+
+
+
 
 ul li {
     list-style: none;
+    margin-left: -18px;
 }
 
 ul li a {
     text-decoration: none;
+    
 }
 
 .nav {
@@ -57,5 +66,9 @@ ul li a {
 
 
 
-/*Bio*/
+/*Work*/
+
+.IGfeed {
+    margin: 0 auto;
+}
 

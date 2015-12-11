@@ -7,54 +7,39 @@
 	 <meta name="viewport" content="width=device-width">
 
 
-	<title>Marina Gulova</title>
+	 <title>Marina Gulova</title>
 
 	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.css">
 
 	 <link rel="stylesheet" type="text/css" href="css/styles.css">
 
 </head>
+
 <body>
     
-	 <h1>Marina Gulova</h1>
+	 <h1>MARINA GULOVA</h1>
 
+   <!--Navigation-->
     <div class="navigation">
         <nav>
 	     <ul>
-		 	 <li><a href="index.html">Home</a></li>
-		   	 <li><a href="bio.html">About</a></li>
-		   	 <li><a href="work.html">Work</a></li>
-		   	 <li><a href="contact.html">Contact</a></li>
+		 	 <li><a href="index.html">HOME</a></li>
+		   	 <li><a href="bio.html">ABOUT</a></li>
+		   	 <li><a href="work.html">WORK</a></li>
+		   	 <li><a href="contact.html">CONTACT</a></li>
 	     </ul>
         </nav>
     </div>
     
-    
-<div class="homePic">
-    <img src="img/MeDrawing.png" alt="" class="homePic">
-</div>
+<!--Instagram Feed -->
+    <div class="IGfeed">
+         <ul class="instagram-lite"></ul>
+    </div>
 
-!--Instagram Feed jQuery--!
-
-<div class="instagram"></div>
-
-<script src="jquery.js"></script>
-<script src="dist/instagram.min.js"></script>
-<script>
-jQuery(function($) {
-  $('.instagram').on('willLoadInstagram', function(event, options) {
-    console.log(options);
-  });
-  $('.instagram').on('didLoadInstagram', function(event, response) {
-    console.log(response);
-  });
-  $('.instagram').instagram({
-    hash: 'love',
-    clientId: 'YOUR-CLIENT-ID-HERE'
-  });
-});
-</script>
-
+<!--Scripts-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-instagram/0.3.1/instagram.js"></script>
 
 
 </body>
