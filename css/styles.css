@@ -13,7 +13,7 @@ h1 {
 }
 
 body {
-    background: ghostwhite;
+    background: white;
     
 }
 
@@ -23,9 +23,8 @@ body {
     width: auto;
     margin: 0 100px;
     position: 200px;
-   
-    
 }
+
 
 
 /*Nav*/
@@ -44,8 +43,6 @@ body {
 }
 
 
-
-
 ul li {
     list-style: none;
     margin-left: -18px;
@@ -61,9 +58,15 @@ ul li a:hover {
     font-style: italic;
 }
 
+ul li a:active {
+    text-decoration: none;
+    font-style: italic;
+    color: cyan;
+}
+
+
 .nav {
-    text-align: center;
-   
+    text-align: center; 
 }
 
 
