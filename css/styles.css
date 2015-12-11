@@ -9,7 +9,7 @@ h1 {
     font-size: 2em;
     line-height: 2.5;
     font-weight: 100;
-    margin: -5px 40px;
+    margin: -5px 23px;
 }
 
 body {
@@ -68,4 +68,10 @@ ul li a {
 
 /*Work*/
 
-
+.bio {
+    color: black;
+    font-family: 'futura', sans-serif;
+    font-size: small;
+    font-weight: 100;
+    margin: -22px 305px;
+}
