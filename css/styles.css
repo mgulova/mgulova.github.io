@@ -6,21 +6,22 @@
 h1 {
     color: black;
     font-family: 'futura', sans-serif;
-    font-size: 2em;
+    font-size: 4em;
     line-height: 2.5;
     font-weight: 100;
-    margin: -5px 23px;
+    margin: -25px 24px;
 }
 
 body {
-    background: white;
+    background: ghostwhite;
+    
 }
 
 .homePic {
     display:block;
-    height: 500px;
+    height: 385px;
     width: auto;
-    margin: 0 auto;
+    margin: 0 100px;
     position: 200px;
    
     
@@ -32,7 +33,7 @@ body {
 .navigation {
     background: black;
     width: 200px;
-    height: 500px;
+    height: 385px;
     
     color: white;
     text-align: left;
@@ -51,7 +52,8 @@ ul li {
 }
 
 ul li a {
-    text-decoration: none;    
+    text-decoration: none;  
+    color: white;
 }
 
 ul li a:hover {
