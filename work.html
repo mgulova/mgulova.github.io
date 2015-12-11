@@ -33,31 +33,17 @@
 
 
     
-<!--Instagram Feed -->
+<!--Dribbble Feed -->
     
-<div class="instagram"></div>
+
 
 
 
 <!--Scripts-->
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
+<script src="highlightReel.js"></script>
 <script src="jquery.js"></script>
-<script src="dist/instagram.min.js"></script>
-<script>
-jQuery(function($) {
-  $('.instagram').on('willLoadInstagram', function(event, options) {
-    console.log(options);
-  });
-  $('.instagram').on('didLoadInstagram', function(event, response) {
-    console.log(response);
-  });
-  $('.instagram').instagram({
-    hash: 'love',
-    clientId: 'YOUR-CLIENT-ID-HERE'
-  });
-});
-</script>
+
 
 <script type="text/javascript" src="js/scripts.js"></script>
 
