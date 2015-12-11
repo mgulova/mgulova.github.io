@@ -79,5 +79,28 @@ ul li a:active {
     font-family: 'futura', sans-serif;
     font-size: small;
     font-weight: 100;
-    margin: -22px 305px;
+    margin: -41px 305px;
+}
+
+
+
+
+/*Contact*/
+
+.social {
+    color: black;
+    font-family: 'futura', sans-serif;
+    font-size: small;
+    font-weight: 100;
+    margin: -41px 305px;
+}
+
+div p a {
+    text-decoration: none;
+    color: black;
+}
+
+div p a:hover {
+    text-decoration: none;
+    color: magenta;
 }
