@@ -3,6 +3,12 @@
 
 /*Home*/
 
+h1 {
+    color: black;
+    font-family: 'futura', sans-serif;
+    font-size: 3em;
+    font-weight: 100;
+}
 
 body {
     background: pink;
@@ -30,8 +36,18 @@ body {
     font-family: 'futura', sans-serif;
     font-size: 2em;
     position: fixed;
+    line-height: 2.5;
     
     
+    
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
 }
 
 .nav {
