@@ -39,11 +39,7 @@ body {
     font-family: 'futura', sans-serif;
     font-size: 2em;
     position: fixed;
-    line-height: 2.5;
-    
-    
-    
-    
+    line-height: 2.5;   
 }
 
 
@@ -55,8 +51,12 @@ ul li {
 }
 
 ul li a {
+    text-decoration: none;    
+}
+
+ul li a:hover {
     text-decoration: none;
-    
+    font-style: italic;
 }
 
 .nav {
