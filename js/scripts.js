@@ -1,8 +1,14 @@
-$(document).ready(function() {
-  $('.glow-me').addGlow({
-    radius: 20,
-    textColor: 'white',
-    haloColor: 'magenta',
-    duration: 350
-  });
-});
+
+//  $('.age').age();
+
+
+
+
+//IG Feed
+
+                  
+    var feed = new Instafeed({
+        get: 'user',
+        userId: '624415625'
+    });
+    feed.run();
